@@ -5,19 +5,19 @@ class A{
     A(int x,int y){
         a = x;
         b = y;
-        System.out.println("Sum of: "+a+" + "+b+" = "+(a+b));
     }
     A(int x,int y,int z){
         a = x;
         b = y;
         c = z;
-        System.out.println("Sum of: "+a+" + "+b+" + "+c+" = "+(a+b));
     }
 }
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         A a = new A(10,20);
+        System.out.println("Sum of: "+a.a+" + "+a.b+" = "+(a.a+a.b));
         A b = new A(2,4,8);
+        System.out.println("Sum of: "+b.a+" + "+b.b+" + "+b.c+" = "+(b.a+b.b+b.c));
     }
 }
