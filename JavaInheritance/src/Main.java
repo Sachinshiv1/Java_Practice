@@ -3,7 +3,7 @@ public class Main {
         B b = new B();
 //        b.display1();
 //        b.display2();
-        
+
         inter AB = new inter();
         AB.print();
         AB.display();
@@ -28,6 +28,7 @@ interface multiInheritenceC{
 }
 class inter implements multiInheritenceB,multiInheritenceC{
     public void print(){
+        System.out.println("This is A implement method");
         System.out.println("This is interface A print");
     }
     public void display(){
